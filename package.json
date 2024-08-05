@@ -1,5 +1,5 @@
 {
-  "name": "react-native-print",
+  "name": "@cocomine/react-native-print",
   "version": "0.11.0",
   "description": "Print documents with React Native",
   "main": "index.js",
@@ -13,12 +13,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:cocomine/react-native-print"
+    "url": "git+https://github.com/cocomine/react-native-print.git"
   },
   "peerDependencies": {
-    "react-native": ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc || 0.10.1 || >= 0.73.0",
-    "react-native-windows": ">=0.62"
+    "react-native": "*",
+    "react-native-windows": "*"
   },
   "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cocomine/react-native-print/issues"
+  },
+  "homepage": "https://github.com/cocomine/react-native-print#readme"
 }
