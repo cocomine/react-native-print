@@ -1,6 +1,6 @@
 {
   "name": "@cocomine/react-native-print",
-  "version": "0.11.0",
+  "version": "0.11.4",
   "description": "Print documents with React Native",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -16,8 +16,10 @@
     "url": "git+https://github.com/cocomine/react-native-print.git"
   },
   "peerDependencies": {
-    "react-native": "*",
-    "react-native-windows": "*"
+    "react-native": ">=0.73.0"
+  },
+  "optionalPeerDependencies": {
+    "react-native-windows": ">=0.73.0"
   },
   "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
   "license": "MIT",
