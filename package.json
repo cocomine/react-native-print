@@ -1,6 +1,6 @@
 {
   "name": "@cocomine/react-native-print",
-  "version": "0.11.5",
+  "version": "0.11.6",
   "description": "Print documents with React Native",
   "main": "index.js",
   "types": "types/index.d.ts",

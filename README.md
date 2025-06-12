@@ -1,6 +1,6 @@
 # react-native-print
 
-Print documents using React Native.
+Fixed version to make it work in higher versions of react-native
 
 ## Installation
 
